@@ -5,6 +5,7 @@ import users from '../src/assets/users.png'
 import ico02 from '../src/assets/ico-02.png'
 import ico03 from '../src/assets/ico-03.png'
 import ico04 from '../src/assets/ico-04.png'
+import group from '../src/assets/group.png'
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
         <img className='bannersenai' src={bannersenai} alt="banner do senai"/>
 
         <h1>A instituição que tem o <span>DNA da indústria</span> </h1>
-        <p>Referência no país inteiro, o SENAI trabalha todos os dias para estimular a inovação e a competitividade da indústria, por meio de serviços de educação, consultorias, pesquisas aplicadas e serviços tecnológicos.</p>
+        <p className='texto1'>Referência no país inteiro, o SENAI trabalha todos os dias para estimular a inovação e a competitividade da indústria, por meio de serviços de educação, consultorias, pesquisas aplicadas e serviços tecnológicos.</p>
 
         <div className='sessaoCaixas'>
           <div className='caixa'>
@@ -44,6 +45,21 @@ function App() {
           <div className='caixa'>
             <img src={ico04}/>
             <p>Alunos SENAI são <span>preferência no mercado de trabalho</span>.</p>
+          </div>
+        </div>
+
+        <div className='caixaGrande'>
+          <div className='duasCaixas'>
+            <img src={group}/>
+            <h2> Para você </h2>
+            <p> Cursos profissionalizantes, graduações e especializações desenhadas para acelerar sua carreira na indústria. </p>
+            <div className='textoadd'>
+              <p>a</p>
+            </div>
+          </div>
+
+          <div className='duasCaixas'>
+            
           </div>
         </div>
       </about>
